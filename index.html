@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-  <title>CSE512: Data Visualization</title>
+  <title>MSAN 622: Data Visualization</title>
   <meta name="robots" content="index,follow" />
   <link rel="stylesheet" type="text/css" href="fonts.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,10 +12,27 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" id="about">
+<div class='content'>
+
+    <div class='title'>
+      <a href="index.html"><strong>MSAN 622</strong>
+         Data Visualization</a> (Spring 2017)
+    </div>
+
+    <script>
+    $(function() {
+      var thumbs = ['value', 'models', 'design', 'eda', 'multidimensional', 'perception', 'software', 'interaction', 'animation', 'color', 'networks', 'space', 'map', 'narrative', 'text', 'collaboration'];
+
+for (var i = 0; i < 16; i++) {
+$(".band").append('<a href="#lec-' + thumbs[i] + '" class="thumb" style="background-image:url(thumb/' + thumbs[i] + '.png)" title=' + thumbs[i] + '></a>');
+}
+})
+</script>
+<br/>
+
 
 <div class='sidebar'>
 
-<div>
 <h1>instructor</h1>
 <a class="person">Yannet Interian</a>
 <small>
@@ -23,9 +40,9 @@
   <br/>101 Howard
 </small>
 
-</div>
+</div> <!-- end of div sidebar --> 
 
-</div>
+</div> <!-- end of div content -->
 
 <h2 id="schedule">Schedule & Readings</h2>
 <h3 id="week1">Week 1</h3>
@@ -44,6 +61,7 @@
   <a href="a1.html">Assignment 1</a>
 </div>
 
+</div>
 
 </body>
 
