@@ -5,10 +5,12 @@
 
 * { padding: 0; margin: 0; }
 
+/* background-color: #33333f*/
+
 body {
   margin: 0 auto 0 auto;
   padding: 0;
-  background-color: #33333f;
+  background-color: #eaeaeb;
   width: 840px;
   font-family: "Avenir", Verdana;
   font-size: 0.95em;
