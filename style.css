@@ -20,8 +20,8 @@ body {
 /*#7533f4 -- > #028900 this is the background */
 /*#492a7c --> #6bb120  this is headers etc*/
 
-a, a:visited { text-decoration: none; color: #456700; }
-a:hover { text-decoration: underline; color: #f4b014; }
+a, a:visited { text-decoration: none; color: #568100; }
+a:hover { text-decoration: underline; color: #008000; }
 img, a.img, a:hover.img { border: none; }
 
 h1, h2, h3, h4, h5 {
