@@ -17,15 +17,15 @@ body {
 }
 
 /* new mapping of colors */
-/*#7533f4 -- > #adff00 */
-/*#492a7c --> #74d600*/
+/*#7533f4 -- > #adff00 this is the background */
+/*#492a7c --> #6bb120  this is headers etc*/
 
 a, a:visited { text-decoration: none; color: #adff00; }
 a:hover { text-decoration: underline; color: #f4b014; }
 img, a.img, a:hover.img { border: none; }
 
 h1, h2, h3, h4, h5 {
-  color: #74d600;
+  color: #6bb120;
   background-color: inherit;
   font-weight: normal;
   padding: 0 0 5px 0;
@@ -40,7 +40,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, a:hover.nolink {
   border: none;
 }
 .title, .title a{
-  color: #74d600; /*#21346B;*/
+  color: #6bb120; /*#21346B;*/
   font-size: 24pt;
   margin-bottom: 10px;
   margin-top: 5px;
