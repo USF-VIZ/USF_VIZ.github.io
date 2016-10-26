@@ -32,30 +32,31 @@
    
     <div class='article' data-spy="scroll" data-target=".navbar">
       <h1>Assignment 1: ggplot2</h1>
-         <p>In this assignment you will use your advanced ggplot2 skills to produce as close as possible the following three plots. 
+         <p>In this assignment you will use your advanced ggplot2 skills to reproduce as close as possible the three plots shown below. 
       </p>
 	<h2>Data Set</h2>
-<p>The first data set has three files with the results of applying two different machine learning algorithms to the same dataset. The files <a href="data/">results-glmnet-cross-table.csv</a> and <a href="data/">results-pgboost-cross-table.csv</a> show two error metrics rmse and mederr which are the result of applying 100 crossvalidations to the same dataset. Here each row is an iteration of the algorithm.</p>
-	<p> The file <a href="data/">results-gradient-boosting.csv</a> shows detailed results for one run of gradient boosting. Here each row is one data point.</p>
+	<p>The first data set has three files with the results of applying two different machine learning algorithms to the same dataset. The files <a href="data/results-glmnet-cross-table.csv">file1</a> and <a href="data/results-pgboost-cross-table.csv">file2</a> show two error metrics rmse and mederr which are the result of applying 100 crossvalidations to the same dataset. Here each row is an iteration of the algorithm.</p>
+	<p> The file <a href="data/results-gradient-boosting.csv">file3</a> shows detailed results for one run of gradient boosting. Here each row is one data point.</p>
 
-	<h2>Assignment</h2>
-	<p> Your task is to write code to reproduce as close as possible the following plots. The goal is that you learn to use. ...</p>
+	<h2>Exercise 1 (10 Points)</h2>
+	<p> Your task is to write code to reproduce as close as possible the following plots (click on the thumbnail to see the full plot). The goal is that you learn how to customize ggplot2 to get better plots.</p>
   <table style="width:100%">
   <tr>
-   <a href="data/plot-boxplot-comparing-100-crossvalidation.png"><img src=data/plot-boxplot-comparing-100-crossvalidation.png/></a>
+   <a href="data/plot-boxplot-comparing-100-crossvalidation.png"><img src=data/plot1.png></a>
   </tr>
   <tr>
-	  <a href="data/plot-boxplot-comparing-100-crossvalidation.png"><img src=data/plot-boxplot-comparing-100-crossvalidation.png/></a>
-  </tr>
-  <tr>
-	  <a href="data/plot-boxplot-comparing-100-crossvalidation.png"><img src=data/plot-boxplot-comparing-100-crossvalidation.png/></a>
+	  <a href="data/plot-boxplot-comparing-100-crossvalidation.png"><img src=data/plot1.png></a>
   </tr>
   </table>
 
-	<h2>Grading</h2>
+	<h2>Exercise 2 (10 Points)</h2>
+	<p>For this exercise, your task is to make a <em>slopegraph </em> for the survival rates for different types of cancer. The plot should be in ggplot2. Here is the original graph designed by Edward Tufte <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk">html</a>. </p> 
 
-	<p>The assignment score is out of a maximum of 15 points (5 points each plot). <p>
-    
+	<h3>Data Set</h3>
+	<p> The dataset of cancer survival is <a href="data/cancer_survival_rate.csv">here</a>.</p> 
+	<h2>Resources <h2>
+	http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html
+
     </div> <!-- end of div article --> 
   </div> <!-- end of div content -->  
 </body>
