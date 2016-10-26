@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, a.nolink,
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, a:hover.nolink {
-  color: #21346B !important;
+  color: #028900 !important;
   text-decoration: none !important;
   border: none;
 }
@@ -110,7 +110,7 @@ text-align: center;
   color:black;
 }
 .pub > .authors a:hover, .pub > .links a:hover{
-  color: #8a5ed3;
+  color: #8ae429;
 }
 
 .pub h1, .pub h2, .pub h3, .pub h4, .pub h4{
@@ -273,7 +273,7 @@ ul.inline li a, ul.inline li a:active, ul.inline li a:visited{
 .article-column { margin: 0; padding: 15px 0 5px 0; }
 
 .flash {
-  background-color: #ededed;
+  background-color: #00ff83;
   border: 2px dashed #ccc;
   padding: 8px;
   margin-bottom: 1em;
@@ -419,7 +419,7 @@ pre, pre.code {
   line-height: 20px;
 }
 .sidebar a, .sidebar a:visited { color: #000; }
-.sidebar a:hover { color: #8a5ed3; }
+.sidebar a:hover { color: #8ae429; }
 .sidebar a.block {
   float: left;
   width: 152px;
@@ -434,7 +434,7 @@ pre, pre.code {
   letter-spacing: 0em;
 }
 .sidebar a.block img { border: none; margin-bottom: 2px; }
-.sidebar a.block:hover { border: 1px solid #f88; color:#8a5ed3; text-decoration: none; }
+.sidebar a.block:hover { border: 1px solid #f88; color:#8ae429; text-decoration: none; }
 .sidebar .linkname { letter-spacing: 0.1em; font-size: 8pt; line-height: 12pt; }
 
 
@@ -447,10 +447,10 @@ pre, pre.code {
   font-size: 12px;
 }
 .footer a {
-  color: #21346B;
+  color: #4d7f17;
 }
 .footer a:hover {
-  color: #ce3333;
+  color: #00d27f;
 }
 
 #sflogo { margin-right: 12px; }
