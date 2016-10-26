@@ -17,10 +17,10 @@ body {
 }
 
 /* new mapping of colors */
-/*#7533f4 -- > #adff00 this is the background */
+/*#7533f4 -- > #028900 this is the background */
 /*#492a7c --> #6bb120  this is headers etc*/
 
-a, a:visited { text-decoration: none; color: #adff00; }
+a, a:visited { text-decoration: none; color: ##456700; }
 a:hover { text-decoration: underline; color: #f4b014; }
 img, a.img, a:hover.img { border: none; }
 
